@@ -1,0 +1,32 @@
+MENU "Mehran Dhaba" currency:PKR tax:0.17 service:0.05
+
+INGREDIENT chicken stock:50kg unit:kg
+INGREDIENT daal stock:30kg unit:kg
+INGREDIENT naan stock:300 unit:piece
+INGREDIENT oil stock:1000ml unit:ml
+INGREDIENT charcoal stock:5000g unit:g
+
+DISH "Karahi Chicken"
+  NEEDS chicken:0.5kg, oil:50ml
+  PRICE 850 PREP_TIME 20min
+  SEASON all_year
+END
+
+DISH "Sajji"
+  NEEDS chicken:1kg, charcoal:500g
+  PRICE 1800 PREP_TIME 45min
+  SEASON winter
+END
+
+COMBO "Family Deal"
+  INCLUDES 2x"Karahi Chicken", 6x naan
+  DISCOUNT 15%
+END
+
+ORDER table:4 waiter:"Ahmed" date:2026-06-15
+  2x "Karahi Chicken"
+  6x naan
+  0x naan
+  1x "Sajji"
+  APPLY_COMBO "Family Deal"
+END

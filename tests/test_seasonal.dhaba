@@ -1,0 +1,14 @@
+MENU "Mehran Dhaba" currency:PKR tax:0.17 service:0.05
+
+INGREDIENT chicken stock:50kg unit:kg
+INGREDIENT charcoal stock:5000g unit:g
+
+DISH "Sajji"
+  NEEDS chicken:1kg, charcoal:500g
+  PRICE 1800 PREP_TIME 45min
+  SEASON winter
+END
+
+ORDER table:4 waiter:"Ahmed" date:2026-06-15
+  1x "Sajji"
+END

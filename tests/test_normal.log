@@ -1,0 +1,13 @@
+=== DhabaLang Ingredient Log ===
+Source: test_normal.dhaba
+Generated: 2026-04-19 11:49:28
+
+ORDER_1 | Table: 4 | Date: 15-Jun-2026
+  chicken     consumed: 1kg      remaining: 49kg
+  naan        consumed: 6 pieces remaining: 294 pieces
+  oil         consumed: 100ml      remaining: 900ml
+
+GRAND TOTAL CONSUMED (all orders):
+  chicken     total: 1kg
+  naan        total: 6 pieces
+  oil         total: 100ml

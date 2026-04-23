@@ -1,0 +1,11 @@
+=== DhabaLang Ingredient Log ===
+Source: test_no_combo.dhaba
+Generated: 2026-04-19 11:49:28
+
+ORDER_1 | Table: 4 | Date: 15-Jun-2026
+  chicken     consumed: 1kg      remaining: 49kg
+  oil         consumed: 100ml      remaining: 900ml
+
+GRAND TOTAL CONSUMED (all orders):
+  chicken     total: 1kg
+  oil         total: 100ml

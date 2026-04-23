@@ -1,0 +1,5 @@
+MENU "Mehran Dhaba" currency:PKR tax:0.17 service:0.05
+
+ORDER table:4 waiter:"Ahmed" date:2026-06-15
+  1x "Ghost Dish"
+END

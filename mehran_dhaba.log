@@ -1,0 +1,15 @@
+=== DhabaLang Ingredient Log ===
+Source: mehran_dhaba.dhaba
+Generated: 2026-04-19 11:54:27
+
+ORDER_1 | Table: 4 | Date: 15-Jun-2026
+  chicken     consumed: 2kg      remaining: 48kg
+  naan        consumed: 6 pieces remaining: 294 pieces
+  oil         consumed: 100ml      remaining: 900ml
+  charcoal    consumed: 500g       remaining: 4500g
+
+GRAND TOTAL CONSUMED (all orders):
+  chicken     total: 2kg
+  naan        total: 6 pieces
+  oil         total: 100ml
+  charcoal    total: 500g
